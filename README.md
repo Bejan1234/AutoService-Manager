@@ -1,4 +1,4 @@
-# BEJANIONUT_1085 - App Overview
+# AutoService Manager - App Overview
 
 ## Overview
 This Android app manages clients and appointments. It contains screens for adding clients, listing appointments, viewing details, simple list tests, statistics and an about page. Emojis are used as visual status/priority markers.
