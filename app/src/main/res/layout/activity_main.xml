@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="?attr/colorSurface">
+
+
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service Auto Manager"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="?attr/colorPrimary"
+        android:layout_marginBottom="20dp"/>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/mechanic"
+        android:contentDescription="Logo aplicație"
+        android:layout_marginBottom="40dp" />
+
+    <!-- Switch pentru Dark Mode -->
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchDarkMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dark_mode"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnAddClient"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adauga Client"
+        android:onClick="openAddClient"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lista Programari"
+        android:onClick="openList"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnStats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Statistici"
+        android:onClick="openStats"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Despre Noi"
+        android:onClick="openAbout" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabSupport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="20dp"
+        android:src="@drawable/support"
+        android:contentDescription="Buton suport" />
+
+    <Button
+        android:id="@+id/btnTestListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exemplu ListView"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="?attr/colorPrimary"
+        android:textColor="?attr/colorOnPrimary"
+        android:onClick="openTestListView"/>
+
+
+</LinearLayout>

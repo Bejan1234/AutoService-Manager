@@ -1,0 +1,9 @@
+<resources>
+    <string-array name="tip_reparatii">
+        <item>Schimb ulei</item>
+        <item>Diagnoza</item>
+        <item>Schimb placute frana</item>
+        <item>ITP</item>
+        <item>Probleme electrice</item>
+    </string-array>
+</resources>

@@ -1,0 +1,36 @@
+# Gradle
+.gradle/
+build/
+
+# Android
+*.iml
+*.hprof
+/local.properties
+/.idea/
+/.gradle/
+/captures/
+.externalNativeBuild/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Kotlin/IntelliJ
+*.class
+*.log
+*.jar
+*.war
+*.ear
+
+# Android Studio
+.idea/
+.gradle/
+/build/
+/local.properties
+
+# Google Services (if any)
+/google-services.json
+
+# Others
+*.keystore
+

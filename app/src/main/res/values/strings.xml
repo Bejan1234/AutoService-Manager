@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BEJANIONUT_1085</string>
+    <string name="stats_title">Statistici</string>
+    <string name="no_results">Niciun rezultat.</string>
+    <string name="total_appointments">Total programări</string>
+    <string name="default_zero">0</string>
+    <string name="avg_duration">Durata medie</string>
+    <string name="dash">-</string>
+    <string name="top_services">Top servicii</string>
+    <string name="about_title">Despre</string>
+    <string name="about_content">Aplicația BEJANIONUT - gestionare programări. Pentru suport: ingo23@gmail.com</string>
+    <string name="dark_mode">Dark Mode</string>
+</resources>
